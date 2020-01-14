@@ -8,8 +8,7 @@ repositories {
 dependencies {
     implementation fileTree(dir: 'lib', include: ['*.jar'])
     compile "joda-time:joda-time:2.2"
-   compile "guava:guava:r09"
-compile "jsr:jsr:305"
+  
     testImplementation 'junit:junit:3.8.2'
    
 }
